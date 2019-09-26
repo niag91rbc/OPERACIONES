@@ -17,7 +17,7 @@ public class OperacionesBasicas{
         }else{
             
         }
-        return this.a+this.b;      
+        return this.a+this.b;    
     }
     
     public int resta(){ 

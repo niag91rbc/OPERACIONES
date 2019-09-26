@@ -31,11 +31,11 @@ public class OperacionesBasicasTest {
     @org.junit.Test
     public void testSumar() {
         System.out.println("sumar");
-        OperacionesBasicas instance = new OperacionesBasicas(20,0);
+        OperacionesBasicas instance = new OperacionesBasicas(20,5);
         //int expResult = 10;
         //int result = instance.Sumar();
         //assertEquals(expResult, result);
-        assertTrue(instance.sumar()==0);
+        assertTrue(instance.sumar()==25);
         
     }
 
